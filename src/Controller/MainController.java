@@ -4,6 +4,9 @@ import sun.applet.Main;
 
 import javax.swing.*;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 import static Controller.GlobalController.UIChange;
 
 
@@ -18,15 +21,20 @@ public class MainController {
     private JComboBox comboSpecific;
     private JButton btnPasswordCopy;
     private JButton btnLoginIdCopy;
-    private JButton btnAddCategory;
-    private JButton btnAddAccountName;
-    private JLabel lblPassword;
-    private JLabel lblLoginId;
     private JLabel lblAccountName;
     private JLabel lblCategory;
+    private JButton btnAddAnAccount;
 
     public MainController() {
 
+
+        btnAddAnAccount.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                AddAccountController aac = new AddAccountController();
+                aac.Launch();
+            }
+        });
     }
 
     public static void main(String[] args)
