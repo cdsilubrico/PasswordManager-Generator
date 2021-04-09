@@ -1,10 +1,13 @@
 package Controller;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class GlobalController {
+public class GlobalController{
 
     private static final String UITheme = "com.sun.java.swing.plaf.windows.WindowsLookAndFeel";
+    private static final String Resources = "resources/ViewsProperties";
 
     public static final void UIChange()
     {
@@ -24,5 +27,7 @@ public class GlobalController {
         }
     }
 
-
+    public static String getResources() {
+        return Resources;
+    }
 }
