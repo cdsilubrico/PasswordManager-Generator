@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 public class GlobalController{
 
     private static final String UITheme = "com.sun.java.swing.plaf.windows.WindowsLookAndFeel";
-    private static final String Resources = "resources/ViewsProperties";
+    private static final String Resources = "ViewsProperties";
 
     public static final void UIChange()
     {
