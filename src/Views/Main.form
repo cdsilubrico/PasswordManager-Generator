@@ -156,7 +156,7 @@
         </constraints>
         <properties>
           <enabled value="true"/>
-          <text resource-bundle="resources/ViewsProperties" key="login.id"/>
+          <text resource-bundle="Views" key="loginLbl"/>
         </properties>
       </component>
       <component id="d7e8b" class="javax.swing.JLabel">
@@ -165,7 +165,7 @@
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
-          <text resource-bundle="resources/ViewsProperties" key="password"/>
+          <text resource-bundle="Views" key="passwordLbl"/>
         </properties>
       </component>
     </children>
