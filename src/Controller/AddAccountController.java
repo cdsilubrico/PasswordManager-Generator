@@ -1,10 +1,8 @@
 package Controller;
 
-import javax.annotation.Resource;
 import javax.swing.*;
 
 import java.awt.*;
-import java.util.Locale;
 import java.util.ResourceBundle;
 
 import static Controller.GlobalController.*;
