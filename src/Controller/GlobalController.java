@@ -5,7 +5,6 @@ import javax.swing.*;
 public class GlobalController{
 
     private static final String UITheme = "com.sun.java.swing.plaf.windows.WindowsLookAndFeel";
-    private static final String Resources = "ViewsProperties";
 
     public static final void UIChange()
     {
@@ -23,9 +22,5 @@ public class GlobalController{
         finally {
             //
         }
-    }
-
-    public static String getResources() {
-        return Resources;
     }
 }
