@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Controller.MainController">
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.MainForm">
   <grid id="27dc6" binding="Contents" layout-manager="GridBagLayout">
     <constraints>
-      <xy x="20" y="20" width="379" height="230"/>
+      <xy x="20" y="20" width="374" height="200"/>
     </constraints>
     <properties>
       <maximumSize width="322" height="238"/>
@@ -14,21 +14,22 @@
     <children>
       <component id="2233d" class="javax.swing.JTextField" binding="txtPassword">
         <constraints>
-          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
           <gridbag top="2" left="2" bottom="2" right="2" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
           <font name="Helvetica" size="12" style="0"/>
-          <maximumSize width="100" height="22"/>
-          <minimumSize width="100" height="22"/>
+          <maximumSize width="120" height="22"/>
+          <minimumSize width="120" height="22"/>
           <preferredSize width="120" height="24"/>
+          <text value=""/>
         </properties>
       </component>
-      <component id="2bc42" class="javax.swing.JComboBox" binding="comboAccountName">
+      <component id="2bc42" class="javax.swing.JComboBox" binding="comboSubCategory">
         <constraints>
-          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="2" left="2" bottom="2" right="2" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
@@ -42,62 +43,44 @@
       </component>
       <component id="b77f7" class="javax.swing.JComboBox" binding="comboCategory">
         <constraints>
-          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="2" left="2" bottom="2" right="2" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
           <font name="Helvetica" size="12" style="0"/>
           <maximumRowCount value="20"/>
-          <maximumSize width="100" height="22"/>
-          <minimumSize width="100" height="22"/>
+          <maximumSize width="120" height="22"/>
+          <minimumSize width="120" height="22"/>
           <preferredSize width="120" height="24"/>
         </properties>
       </component>
       <vspacer id="5de92">
         <constraints>
-          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
           <gridbag weightx="0.0" weighty="0.0" ipadx="10" ipady="30"/>
         </constraints>
       </vspacer>
-      <component id="378cb" class="javax.swing.JComboBox" binding="comboSpecific">
+      <component id="378cb" class="javax.swing.JComboBox" binding="comboLoginID">
         <constraints>
-          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="2" left="2" bottom="2" right="2" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
           <font name="Helvetica" size="12" style="0"/>
           <maximumRowCount value="20"/>
-          <maximumSize width="84" height="22"/>
-          <minimumSize width="84" height="22"/>
+          <maximumSize width="120" height="22"/>
+          <minimumSize width="120" height="22"/>
           <model/>
           <preferredSize width="120" height="24"/>
         </properties>
       </component>
       <hspacer id="8b5f3">
         <constraints>
-          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="0.0" weighty="0.0" ipadx="30" ipady="10"/>
         </constraints>
       </hspacer>
       <component id="bd0b7" class="javax.swing.JButton" binding="btnPasswordCopy">
-        <constraints>
-          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
-          <gridbag top="1" left="2" bottom="2" right="2" weightx="0.0" weighty="0.0"/>
-        </constraints>
-        <properties>
-          <maximumSize width="74" height="24"/>
-          <minimumSize width="74" height="24"/>
-          <preferredSize width="74" height="24"/>
-          <text resource-bundle="Views" key="copyBtn"/>
-        </properties>
-      </component>
-      <hspacer id="f46ff">
-        <constraints>
-          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-          <gridbag weightx="0.0" weighty="0.0" ipadx="30" ipady="10"/>
-        </constraints>
-      </hspacer>
-      <component id="f324c" class="javax.swing.JButton" binding="btnLoginIdCopy">
         <constraints>
           <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="1" left="2" bottom="2" right="2" weightx="0.0" weighty="0.0"/>
@@ -109,15 +92,33 @@
           <text resource-bundle="Views" key="copyBtn"/>
         </properties>
       </component>
+      <hspacer id="f46ff">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="30" ipady="10"/>
+        </constraints>
+      </hspacer>
+      <component id="f324c" class="javax.swing.JButton" binding="btnLoginIdCopy">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="2" bottom="2" right="2" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="74" height="24"/>
+          <minimumSize width="74" height="24"/>
+          <preferredSize width="74" height="24"/>
+          <text resource-bundle="Views" key="copyBtn"/>
+        </properties>
+      </component>
       <vspacer id="cff0a">
         <constraints>
-          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
           <gridbag weightx="0.0" weighty="0.0" ipadx="10" ipady="30"/>
         </constraints>
       </vspacer>
       <component id="eb36" class="javax.swing.JLabel" binding="loginIDLabel">
         <constraints>
-          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="0" left="0" bottom="0" right="2" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
@@ -128,7 +129,7 @@
       </component>
       <component id="b3edc" class="javax.swing.JLabel" binding="passwordLabel">
         <constraints>
-          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="0" left="0" bottom="0" right="2" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
@@ -140,33 +141,23 @@
       </component>
       <component id="e7c6a" class="javax.swing.JLabel" binding="accountNameLabel">
         <constraints>
-          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="0" left="0" bottom="0" right="2" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
-          <labelFor value="2bc42"/>
-          <text resource-bundle="Views" key="accountName"/>
+          <labelFor value="b77f7"/>
+          <text resource-bundle="Views" key="categoryLbl"/>
         </properties>
       </component>
       <component id="e61ab" class="javax.swing.JLabel" binding="categoryLabel">
         <constraints>
-          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="0" left="0" bottom="0" right="2" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
           <inheritsPopupMenu value="true"/>
-          <text resource-bundle="Views" key="category"/>
-        </properties>
-      </component>
-      <component id="263af" class="javax.swing.JButton" binding="addButton">
-        <constraints>
-          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
-          <gridbag weightx="0.0" weighty="0.0"/>
-        </constraints>
-        <properties>
-          <hideActionText value="false"/>
-          <preferredSize width="80" height="22"/>
-          <text resource-bundle="Views" key="addBtn"/>
+          <labelFor value="2bc42"/>
+          <text resource-bundle="Views" key="subCategoryLbl"/>
         </properties>
       </component>
     </children>
