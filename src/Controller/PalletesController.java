@@ -9,7 +9,6 @@ public class PalletesController {
     private final int preferredWidthBtn = 0;
     private final int preferredHeightBtn= 0;
 
-
     public String getFont() {
         return font;
     }
@@ -17,4 +16,5 @@ public class PalletesController {
     public int getSize() {
         return size;
     }
+
 }
