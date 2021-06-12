@@ -18,7 +18,7 @@
     <children>
       <component id="7880f" class="javax.swing.JTextField" binding="loginTextField">
         <constraints>
-          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
           <gridbag top="2" left="2" bottom="2" right="2" weightx="0.0" weighty="0.0"/>
@@ -33,7 +33,7 @@
       </component>
       <component id="6f360" class="javax.swing.JTextField" binding="passwordTextField">
         <constraints>
-          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
           <gridbag top="2" left="2" bottom="2" right="2" weightx="0.0" weighty="0.0"/>
@@ -46,45 +46,45 @@
       </component>
       <component id="29a3e" class="javax.swing.JComboBox" binding="AccountNameComboBox">
         <constraints>
-          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="2" left="2" bottom="2" right="2" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
           <font name="Helvetica" size="12" style="0"/>
-          <maximumSize width="100" height="22"/>
-          <minimumSize width="100" height="220"/>
+          <maximumSize width="120" height="22"/>
+          <minimumSize width="120" height="22"/>
           <model/>
           <preferredSize width="120" height="24"/>
         </properties>
       </component>
       <component id="614a1" class="javax.swing.JComboBox" binding="CategoryComboBox">
         <constraints>
-          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="2" left="2" bottom="2" right="2" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
           <font name="Helvetica" size="12" style="0"/>
-          <maximumSize width="100" height="22"/>
-          <minimumSize width="100" height="22"/>
+          <maximumSize width="120" height="24"/>
+          <minimumSize width="120" height="24"/>
           <model/>
           <preferredSize width="120" height="24"/>
         </properties>
       </component>
       <hspacer id="21e0">
         <constraints>
-          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-          <gridbag weightx="0.0" weighty="0.0" ipadx="30"/>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="40"/>
         </constraints>
       </hspacer>
       <vspacer id="4b9f7">
         <constraints>
           <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-          <gridbag weightx="0.0" weighty="0.0" ipady="30"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="40"/>
         </constraints>
       </vspacer>
       <component id="8442e" class="javax.swing.JLabel" binding="passwordLabel">
         <constraints>
-          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="0" left="0" bottom="0" right="2" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
@@ -97,7 +97,7 @@
       </component>
       <component id="87d37" class="javax.swing.JLabel" binding="loginIDLabel">
         <constraints>
-          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="0" left="0" bottom="0" right="2" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
@@ -112,13 +112,13 @@
       </component>
       <hspacer id="cdff9">
         <constraints>
-          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="0.0" weighty="0.0" ipadx="40"/>
         </constraints>
       </hspacer>
       <component id="4b050" class="javax.swing.JButton" binding="generateButton" default-binding="true">
         <constraints>
-          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="2" left="2" bottom="2" right="2" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
@@ -131,13 +131,13 @@
       </component>
       <vspacer id="4f6a9">
         <constraints>
-          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-          <gridbag weightx="0.0" weighty="0.0" ipady="30"/>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="40"/>
         </constraints>
       </vspacer>
       <component id="23ea3" class="javax.swing.JLabel" binding="accountNameLabel">
         <constraints>
-          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="0" left="0" bottom="0" right="2" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
@@ -147,36 +147,46 @@
           <minimumSize width="100" height="16"/>
           <preferredSize width="100" height="20"/>
           <requestFocusEnabled value="true"/>
-          <text resource-bundle="Views" key="accountName"/>
+          <text resource-bundle="Views" key="subCategoryLbl"/>
         </properties>
       </component>
       <component id="da168" class="javax.swing.JSeparator">
         <constraints>
-          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
           <gridbag top="15" left="0" bottom="15" right="0" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties/>
       </component>
-      <component id="b1048" class="javax.swing.JButton" binding="addButton" default-binding="true">
+      <component id="b1048" class="javax.swing.JButton" binding="saveButton">
         <constraints>
-          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="2" left="2" bottom="2" right="2" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
           <preferredSize width="122" height="24"/>
-          <text resource-bundle="Views" key="addBtn"/>
+          <text resource-bundle="Views" key="saveBtn"/>
         </properties>
       </component>
       <component id="8e14c" class="javax.swing.JLabel" binding="categoryLabel">
         <constraints>
-          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="0" left="0" bottom="0" right="2" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
           <horizontalAlignment value="4"/>
           <labelFor value="614a1"/>
           <preferredSize width="100" height="20"/>
-          <text resource-bundle="Views" key="category"/>
+          <text resource-bundle="Views" key="categoryLbl"/>
+        </properties>
+      </component>
+      <component id="5d99c" class="javax.swing.JButton" binding="addButton">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="2" left="2" bottom="2" right="2" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <preferredSize width="122" height="24"/>
+          <text resource-bundle="Views" key="addBtn"/>
         </properties>
       </component>
     </children>
