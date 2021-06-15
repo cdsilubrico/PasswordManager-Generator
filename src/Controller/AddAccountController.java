@@ -3,7 +3,6 @@ package Controller;
 import javax.swing.*;
 
 import java.awt.*;
-import java.util.ResourceBundle;
 
 import static Controller.GlobalController.*;
 
@@ -11,7 +10,6 @@ public class AddAccountController {
 
     AddAccountController()
     {
-        ResourceBundle res = ResourceBundle.getBundle("Views");
         PalletesController pc = new PalletesController();
 
         loginTextField.setFont(new Font(pc.getFont(),Font.PLAIN,pc.getSize()));
@@ -21,7 +19,7 @@ public class AddAccountController {
         categoryLabel.setFont(new Font(pc.getFont(),Font.PLAIN,pc.getSize()));
         accountNameLabel.setFont(new Font(pc.getFont(),Font.PLAIN,pc.getSize()));
         generateButton.setFont(new Font(pc.getFont(),Font.PLAIN,pc.getSize()));
-        addButton.setFont(new Font(pc.getFont(),Font.PLAIN,pc.getSize()));
+        saveButton.setFont(new Font(pc.getFont(),Font.PLAIN,pc.getSize()));
         CategoryComboBox.setFont(new Font(pc.getFont(),Font.PLAIN,pc.getSize()));
         AccountNameComboBox.setFont(new Font(pc.getFont(),Font.PLAIN,pc.getSize()));
 
@@ -33,12 +31,13 @@ public class AddAccountController {
     private JTextField passwordTextField;
     private JButton generateButton;
     private JComboBox AccountNameComboBox;
-    private JButton addButton;
+    private JButton saveButton;
     private JLabel loginIDLabel;
     private JLabel passwordLabel;
     private JComboBox CategoryComboBox;
     private JLabel categoryLabel;
     private JLabel accountNameLabel;
+    private JButton addButton;
 
     void Launch()
     {
